@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Research-orange)
+
 # LLM Clinical Simulation
 
 Multi-agent large language model framework for simulating clinical conversations in healthcare training environments, with automated evaluation using LLM-based judging.
