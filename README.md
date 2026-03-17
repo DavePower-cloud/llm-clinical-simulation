@@ -220,13 +220,20 @@ It is not intended for clinical use or real-world decision-making.
 ### 👤 Author
 
 David Power
-AI | Healthcare Simulation | Medical Education
+AI | Healthcare Simulation | Medical Education \
+University College Cork, Ireland 
 
 ---
 
 📜 License
 
 MIT License
+
+---
+
+### 📚 Citation
+
+If you use this work, please cite the associated publications.
 
 ---
 
@@ -239,3 +246,6 @@ flowchart LR
     C --> D[AI Judge Evaluation]
     D --> E[Structured Scores JSONL]
     E --> F[Dataset / Analysis / Publication]
+
+
+
