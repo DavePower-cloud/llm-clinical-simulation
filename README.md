@@ -20,7 +20,7 @@ This repository accompanies the following research work:
 
 ---
 
-## 🧠 Overview
+## 📌 Overview
 
 Clinical communication is central to safe patient care, yet studying communication behaviour is difficult due to the cost, complexity, and ethical constraints of real-world observation and simulation.
 
