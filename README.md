@@ -105,7 +105,7 @@ python -m src.evaluation \
 
 ---
 
-📊 Output Formats
+### 📊 Output Formats
 Conversation Output (JSON)
 
 Each simulation produces a structured JSON file:
@@ -118,7 +118,22 @@ timestamps
 
 metadata (e.g., role guard failures)
 
----
+
+ 📄 Example Conversation Output
+
+
+{\
+  "conversation_id": "conv_1234abcd", \
+  "num_turns": 6, \
+  "role_guard_failures": 0, \
+  "turns": [ \
+    {"speaker": "doctor", "text": "Can you describe your chest pain?"}, \
+    {"speaker": "patient", "text": "It's crushing and spreading to my arm."}, \
+    {"speaker": "nurse", "text": "BP is 88/54, HR 120."} \
+  ] \
+} 
+
+
 
 Evaluation Output (JSONL)
 
@@ -138,9 +153,23 @@ free-text justification
 
 model metadata
 
+📊 Example Evaluation Output
+
+{\
+  "conversation_id": "conv_1234abcd", \
+  "judge_model": "gpt-4o", \
+  "judge": { \
+    "role_fidelity": 5, \
+    "turn_coherence": 4, \
+    "communication_realism": 5, \
+    "educational_usable": true, \
+    "comments": "Clinically plausible interaction with appropriate escalation." \
+  } \
+}
+
 ---
 
-🔬 Research Applications
+### 🔬 Research Applications
 
 This framework supports:
 
@@ -156,7 +185,7 @@ Large-scale analysis of clinical communication behaviour
 
 ---
 
-📦 Dataset & Future Work
+### 📦 Dataset & Future Work
 
 This repository forms part of the ESCALATE dataset pipeline, which will include:
 
@@ -170,7 +199,7 @@ Public release via Zenodo and Hugging Face
 
 ---
 
-⚠️ Disclaimer
+### ⚠️ Disclaimer
 
 This project is for research and educational purposes only.
 
@@ -178,7 +207,7 @@ It is not intended for clinical use or real-world decision-making.
 
 ---
 
-👤 Author
+### 👤 Author
 
 David Power
 AI | Healthcare Simulation | Medical Education
@@ -188,3 +217,15 @@ AI | Healthcare Simulation | Medical Education
 📜 License
 
 MIT License
+
+---
+
+## 🔁 Pipeline Overview
+
+```mermaid
+flowchart LR
+    A[Scenario Definition] --> B[Multi-Agent Simulation]
+    B --> C[Conversation JSON Output]
+    C --> D[AI Judge Evaluation]
+    D --> E[Structured Scores JSONL]
+    E --> F[Dataset / Analysis / Publication]
