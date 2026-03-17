@@ -103,6 +103,12 @@ python -m src.evaluation \
   --output-jsonl data/judge_results.jsonl \
   --per-file-output-dir data/judge_results
 
+### ⚡ Quick Demo (End-to-End)
+
+Run a full pipeline: \
+python -m src.main --batch 3 \
+python -m src.evaluation --input-dir data/conversations
+
 ---
 
 ### 📊 Output Formats
