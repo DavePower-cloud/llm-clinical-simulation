@@ -223,7 +223,7 @@ It is not intended for clinical use or real-world decision-making.
 
 ### 👤 Author
 
-David Power
+David Power\
 AI | Healthcare Simulation | Medical Education \
 University College Cork, Ireland 
 
