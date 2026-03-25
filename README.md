@@ -133,7 +133,7 @@ timestamps
 metadata (e.g., role guard failures)
 
 
- 📄 Example Conversation Output
+### 📄 Example Conversation Output
 
 
 {\
@@ -167,7 +167,7 @@ free-text justification
 
 model metadata
 
-📊 Example Evaluation Output
+### 📊 Example Evaluation Output
 
 {\
   "conversation_id": "conv_1234abcd", \
@@ -183,7 +183,7 @@ model metadata
 
 ---
 
-### 🔬 Research Applications
+## 🔬 Research Applications
 
 This framework supports:
 
@@ -199,7 +199,7 @@ Large-scale analysis of clinical communication behaviour
 
 ---
 
-### 📦 Dataset & Future Work
+## 📦 Dataset & Future Work
 
 This repository forms part of the ESCALATE dataset pipeline, which will include:
 
@@ -213,7 +213,7 @@ Public release via Zenodo and Hugging Face
 
 ---
 
-### ⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This project is for research and educational purposes only.
 
@@ -221,21 +221,23 @@ It is not intended for clinical use or real-world decision-making.
 
 ---
 
-### 👤 Author
+## 👤 Author
 
-David Power\
-AI | Healthcare Simulation | Medical Education \
-University College Cork, Ireland 
+**David Power**  
+Healthcare Simulation Specialist | MSc Artificial Intelligence  
+
+- 💼 LinkedIn: https://www.linkedin.com/in/dave-power-47280a44/  
+- 💻 GitHub: https://github.com/DavePower-cloud
 
 ---
 
-📜 License
+## 📜 License
 
 MIT License
 
 ---
 
-### 📚 Citation
+## 📚 Citation
 
 If you use this work, please cite the associated publications.
 
