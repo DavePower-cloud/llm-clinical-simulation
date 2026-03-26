@@ -48,15 +48,15 @@ Generated conversations are then evaluated automatically using a LLM-based judge
 ## 🏗️ Repository Structure
 
 src/
-- simulation.py # Core multi-agent simulation engine
-- clients.py # LLM provider wrappers
-- prompts.py # Role-specific system prompts
-- models.py # Data structures
-- judge.py # AI-as-judge scoring logic
-- evaluation.py # Batch evaluation pipeline
-- config.py # Configuration management
-- io_utils.py # File handling utilities
-- main.py # CLI entry point
+- simulation.py 
+- clients.py 
+- prompts.py 
+- models.py 
+- judge.py 
+- evaluation.py 
+- config.py 
+- io_utils.py 
+- main.py 
 
 notebooks/
 - demo_generation.ipynb
