@@ -183,6 +183,18 @@ model metadata
 
 ---
 
+## 🔁 Pipeline Overview
+
+```mermaid
+flowchart LR
+    A[Scenario Definition] --> B[Multi-Agent Simulation]
+    B --> C[Conversation JSON Output]
+    C --> D[AI Judge Evaluation]
+    D --> E[Structured Scores JSONL]
+    E --> F[Dataset / Analysis / Publication]
+```
+---
+
 ## 🔬 Research Applications
 
 This framework supports:
@@ -241,17 +253,20 @@ MIT License
 
 If you use this work, please cite the associated publications.
 
+```bibtex
+@misc{power2026llmclinical,
+  author       = {Power, David and Power, T.},
+  title        = {Can Large Language Models Simulate the Clinical Conversation? A Multi-Agent Approach},
+  year         = {2026},
+  publisher    = {OSF Preprints},
+  doi          = {10.35542/osf.io/etv6d_v1},
+  url          = {https://doi.org/10.35542/osf.io/etv6d_v1},
+  note         = {Preprint}
+}
+```
 ---
 
-## 🔁 Pipeline Overview
 
-```mermaid
-flowchart LR
-    A[Scenario Definition] --> B[Multi-Agent Simulation]
-    B --> C[Conversation JSON Output]
-    C --> D[AI Judge Evaluation]
-    D --> E[Structured Scores JSONL]
-    E --> F[Dataset / Analysis / Publication]
 
 
 
